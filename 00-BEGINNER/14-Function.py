@@ -40,3 +40,19 @@ greet("Shubham", "Harda")
 
 #calling function with the keyword arguments (now, order of arument has no importance)
 greet(location="Harda", name="Adi")
+
+#functions can also have outputs.
+#you can use the return keyword to return a value from a function
+#you can either print this value or store it in a variable
+
+def my_function1(name):
+    return "Hello " + name
+
+print(my_function1("adi"))
+
+greet = my_function1("Shubham")
+print(greet)
+
+#in many cases you need to use the return instead of print,,, to catch a particular value in a variable.
+
+
